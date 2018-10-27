@@ -1,0 +1,14 @@
+a. 先问how to measure health of facebook,我说可以分两个部分，一是website/sytem本身health，是不是function normally，
+另一部分是user engagement，比如新用户注册率，现有用户的interactions包括comment/share blablabla，然后DAU/MAU之类的，. 
+
+b. 然后他直接打断说ok，现在就focus在comment上，如果要求你做一个dashboard specifically about comment，有哪些metrics你可以present。
+我先莫名想岔到之前面经的sql题了，跟他说可以show distribution of comments/users，然后他表现得不太满意，说ok，其他的呢，我就说可
+以present average comments per post/user，然后他继续问这个average comment per user是怎么计算的，denominator和numerator是啥，
+我回答numerator等于总评论数，denominator是distinct users who have left at least 1 comment per day。
+
+c. 然后他说ok，现在把denominator换一换，改成DAU，我们发现这个总comment/DAU的比率跟一年前同一天相比，增加了50%,有哪些可能原因。
+我回答首先user mix可能有变化，可能今年新增的growth都是愿意发更多comment的用户，然后（随口乱说）content内容的变化吸引更多user leave comment，
+第三可能有新feature刺激用户留言更多之类的。然后他follow up了一句什么我忘了，好像是如何判断是哪种？我就先说我们可
+以segmentation by users' language/platform/device type/browser/location看看有没有哪个subgroups特别突出，有的话可以dive deep。
+
+挂了
