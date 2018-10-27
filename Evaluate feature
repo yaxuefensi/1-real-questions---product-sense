@@ -1,0 +1,23 @@
+
+第二题close friends sms notification
+
+2. feature分两步，第一步，问user要不要sign up，第二步，给sign up的用户发notification，问如何evaluate。
+
+我的答案是只检测sign up的用户，分两部分，test组为sign up的并且发notification，control组为sign up但是不发notification，
+metric用average time spent on FB / average daily visits 
+
+follow up 1: what is your hypothesis
+. 1point 3acres 论坛
+实验结果发现两个有显著差异，公司决定roll out to all facebook user，但是发现上线以后所选的metric并没有显著变化，问这是为什么，我回答也
+许有seasonal effects
+. From 1point 3acres bbs
+面试官回答这有可能，然后说公司又做了第二个实验，所有发new feature invites的为一组（不管有没有sign up），没有发invites的一组，发现两组
+的metric几乎没有差异，结合第一步的实验，问这是为什么？再追问如果这样的话还要不要roll out new feature。
+
+此处我卡壳很久，最终面试官给的hint是，如果enrollment rate很低会怎么样，这里答案应该是，当enrollment rate很低的时候，虽然这个产品有用，
+但是大部分人不会使用，所以对总体的engagement提升不大。
+
+最后一问，是说如果把sign up的作为test group，没有sign up的作为control group，发现test 比control好很多，问这样行不行。答案应该是不行，
+因为sign up的user也许本身就比没有sign up的更engage，两组population不一样，不能这样分组。
+
+答的很差，但是当天还是收到了recruiter通知说过了，准备联系昂赛。祝大家都好运
