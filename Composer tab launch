@@ -31,3 +31,36 @@ shellysun 发表于 2018-10-27 02:00
 . visit 1point3acres for more.
 2. A/B test, metrics选类似DAU, Time spend之类的
 
+1.  老板发现average number of posts per daily active user 下降了，你要怎么investigate？
+2. 我们想build一个composer的tab, 在我们launch 前有哪些metrics 我们需要考虑？
+以及一些围绕我的回答展开的问题，比如如何测试，如何在无法做传统的AB test 的情况下判断是否应该加这个tab，等等。
+
+ydybati 发表于 2018-10-20 14:48
+第二题感觉好难，求问一下楼主的思路
+
+来自一亩三分地官方APP
+
+第二题定义metrics 的思路我是从增加这个composer tab 的目的入手，找出2-3个可以体现这个composer tab 目的的metrics。
+所以第一题要和面试官clarify 你对这个新加的feature 目的的理解。我当时给的理解是，添加这个feature的目的是方便用户找到这
+个composer；而为什么要方便用户找到这个feature呢？是不是因为这个feautre 被使用的频繁非常高？又是不是我们发现很多用户在尝
+试寻找这个feature？如此这般分析，你就可以找出能回答你这些问题的metrics 了
+
+“又是不是我们发现很多用户在尝试寻找这个feature？”launch之前，用户根本不知道有这个feature呢，用户怎么寻找？我们又怎么发现呢？
+多谢~
+
+这些就是你需要和面试官司clarify 的问题啦
+
+恭喜楼主！请问“如何在无法做传统的AB test 的情况下判断是否应该加这个tab”这个该从哪个方面思考？business strategy还是什么？
+这个可以从benchmark analysis 角度来分析～
+
+不能用传统AB Test是面试时给一种假设的情况。这里的benchmark 其实不用考虑到competitor；想想和fb 产品里面类似已有的feature做比较分析:)
+
+感谢分享！可以问下composer tab 具体指的是什么么？是指main app 下面的导航栏里加个tab，然后用户点进去可以发post 吗？
+对的
+
+
+非常感谢Lz的分享！有些疑惑，(1) 这个新的composer tab feature不可以用传统A/B testing来测试concern大概是什么? 
+(2) 对于benchmarking analysis, 是和其他公司standard比较?lz觉得是在什么scale上比较？就是说在整个engagement, 
+DAU 的还是更细致的feature level metrics comparison? 对于benchmarking这个方向的分析我的理解比较模糊。
+
+不能用传统AB Test是面试时给一种假设的情况。这里的benchmark 其实不用考虑到competitor；想想和fb 产品里面类似已有的feature做比较分析:)
