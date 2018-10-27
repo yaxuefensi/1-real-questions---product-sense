@@ -1,0 +1,6 @@
+
+问"What metrics would you use for the health of GROUPS"  
+因为之前代码节省了时间, 我这个问题就狂说，所以才讲到了network analysis.... 牛人云集,一亩三分地
+"If we want add a new product to GROUPS, how do we evaluate its impact on the health”. 1point3acres
+这个就是ABtesting的东西了，我实话实说自己没有做过ABtesting，所以选择用student T和ANOVA解释如何一步一步建立样本，
+比较statistically difference。莫非说实话也减分，除了有医疗和网站背景的，没做过ABtesting很奇怪么。。。
