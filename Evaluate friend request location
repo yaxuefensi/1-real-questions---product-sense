@@ -4,3 +4,20 @@ how to evaluate its performace
 
 follow up question: if friends requests goes up, but engagement goes down, should we launch this product?
 
+好了这是一个完美的套路的case study..
+
+补充内容 (2018-4-14 03:57):
+总体讨论路线：  pick up metrics -> AB testing -> result after AB testing
+
+补充内容 (2018-4-14 04:00):
+1.选择metric: always keep our business goal in mind!!!这个feature到底是干嘛的: increase revenue/increase user engagement. etc...? 这道题，我觉得就是增加friend request & acceptance rate.
+欢迎大家讨论. visit 1point3acres for more.
+
+补充内容 (2018-4-14 04:03):
+
+2.AB testing：上了udemy 和udacity上的AB testing课程。几大注意事项： sample group （no bias!）; sample size; run time...
+
+补充内容 (2018-4-14 04:07):
+3. Result: 及其喜欢问如果test蛮好的launch以后一个metric上升了但另一个下降了should we still launch?暂时大概和大家说下重点: what's the initial objective of this feature? why metric goes to this direction? Are they going to change along with the time if we launch ?
+
+
