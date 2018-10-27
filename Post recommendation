@@ -1,0 +1,5 @@
+assume now we don’t have recommendation to users for what they post, if we want to add this feature, 
+how would you evaluate?. 
+一定要和面试官confirm一开始所有的细节，楼主事先告诉自己要communication但现场还是自说自话犯了低级错误。回家细想了下，
+这题还是蛮有意思的，user 采纳FB推荐post的内容多了，可能和整体user engagement 是个trade off。所以metric到现在我都没有结论到底应该选啥。
+我就不误人子弟了，点到为止
