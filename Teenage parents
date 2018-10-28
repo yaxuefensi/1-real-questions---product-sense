@@ -41,3 +41,22 @@ contact中有父母的样本的选择过程会不会有bias，可能会选出那
 问题的本质有没有理解。
 有很多人在争论是不是用A/B test或者是不是用cohort test，其实用哪个不重要，言之成理即可，关键是怎么判断是否产生了影响，从什么方面来看这个影响，
 影响有多大，如果是负面影响要怎么解决？
+
+
+但开一贴讨论一下父母加入fb之后的影响，大家觉得直接用Paired T-test 坐 pre - post engagement level difference的检验怎么样？
+能具体说说怎么做吗？就算propensity score，观测到有些人爸妈加入了，也不能强制另外一组爸妈不来呀，怎么弄？
+想问下这个问题做ABtest，有无父母加入这个变量怎么控制呢？因为有无父母加入，不由data scientist控制啊. 一亩-三
+
+同意这个没办法做AB test。建议看下quasi experimental design
+
+楼歪回去 这个应该怎么做呢？ 我有的想法也是单纯用历史数据， 看父母加入之后的engagement
+. from: 1point3acres 
+感觉看这个trend line应该是一个比较靠谱的方法， 不过有没有其他variants呢？
+
+cohort analysis、、
+
+我觉得paired T test做pre-post cohort是一个思路，但如果面试官问怎么能确定engagement的变化就是来自于父母的加入呢？因为没有
+做过AB test只是看historical data，不能排除其他confounder可能的影响
+
+个人觉得还有一种方法是propensity score matching, 用matched sample去做AB test，同时在实验的时候也可以考虑把一小部分人划到hold-out
+
