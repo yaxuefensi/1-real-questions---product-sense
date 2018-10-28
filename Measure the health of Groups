@@ -4,3 +4,12 @@
 "If we want add a new product to GROUPS, how do we evaluate its impact on the health”. 1point3acres
 这个就是ABtesting的东西了，我实话实说自己没有做过ABtesting，所以选择用student T和ANOVA解释如何一步一步建立样本，
 比较statistically difference。莫非说实话也减分，除了有医疗和网站背景的，没做过ABtesting很奇怪么。。。
+
+a. Facebook is going to launch the group feature, to get a better connected community, how are you going 
+to evaluate the effect of this new product, what KPI you are going to look at?
+
+b. Ok, we launch the product. In FB we have large group and small groups, and we are going to launch a new
+feature for only one category, how are going to make recommendation for the PM?
+
+c. What factors you need to consider before whether to launch the product?
+
