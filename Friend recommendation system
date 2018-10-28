@@ -1,2 +1,5 @@
 product:　assuming you have two versions of friend recommendation system, how do you select 
 one from them? what metrics you will use？what date you will use and why ?
+
+
+第二次的题很简单，说有个新的friend recommendation feature, 怎么test他好不好用，就是简单的AB testing。
