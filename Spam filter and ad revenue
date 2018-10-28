@@ -1,0 +1,11 @@
+给两个table，
+一个是  | 日期 ds | user_id |  poster_id | activity | comments | 
+comments 里面包含 ‘spam’， ‘others'
+
+另一个table，
+｜ds ｜ reviewer_id | poster_id |
+
+计算每天 spam中被 reviewer 确定为 spam 的rate。
+
+后面的是引申的分析， A/B test， 如何处理 spam filter的正确率很高， 却导致广告收入下滑 的问题。
+
