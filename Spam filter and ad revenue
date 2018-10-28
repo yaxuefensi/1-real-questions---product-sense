@@ -9,3 +9,7 @@ comments 里面包含 ‘spam’， ‘others'
 
 后面的是引申的分析， A/B test， 如何处理 spam filter的正确率很高， 却导致广告收入下滑 的问题。
 
+Q1: what metrics to validate if the spam filter algorithm work or not?. 牛人云集,一亩三分地
+Q2: how you validate if the spam filter algorithm work or not?
+Q3: if the spam filter works but revenue drops, you know why?
+Q4: how you will design the spam filter algorithm?
