@@ -1,0 +1,15 @@
+
+背景描述： 
+2010 年之后， 大部分用户已经注册了FB， 之后再陆续注册的用户属于是”later adopter“。 此时老用户已经完成了大部分好友 搜索、加新好友的工作，
+形成了自己的社交网络。 新用户需要单向的去添加用户。 即，老用户less likely 主动搜索，添加新用户。 这样其实不利于新用户的engagement。
+
+PM propose：  在个人主页的news feed里，排名第二的位置，增加一个 推荐好友 feature
+问题：  你怎样衡量这个feature
+
+聊到的点：
+1. split sample， 不能random， 因为network effect
+2. 设置 metrics， 2个， 一个宏观，一个微观，跟engagement 相关； counter metrics： 这么做的cost ，什么会受影响？
+3. 不考虑novelty effect
+4. 加这个feature 的cost是什么
+
+
