@@ -12,4 +12,7 @@ PM propose：  在个人主页的news feed里，排名第二的位置，增加�
 3. 不考虑novelty effect
 4. 加这个feature 的cost是什么
 
+产品：地里有类似题。如果在newsfeed里面推荐朋友，如何看这个新feature好不好？
+无外乎：metrics，如何选sample，注意哪些因素，follow up 
+
 
