@@ -1,3 +1,6 @@
 1.Business Case：
 如果FB准备推出一个'restruant you may like' feature 在newsfeed, FB怎样去选择什么样的餐馆进行推荐。
 如果决定了推出这个新的feature，怎样决定在什么位置/timing post这个信息。
+
+在BC上说了说可以针对用户的origin进行推荐， 也可以通过user的friends recommendation进行推荐。
+对于位置和timing，可以做一下AB test，看新的feature会不会影响用户体验。
