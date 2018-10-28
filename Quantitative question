@@ -1,0 +1,18 @@
+在看地裡面經的時候常看到Quantitative題目，想請大家指.1point3acres网
+. more info on 1point3acres
+有兩種方法display ad, 哪種好？. 牛人云集,一亩三分地
+a. show an ad every 25 posts
+b. 4% showing an ad for each story on the timeline
+.本文原创自1point3acres论坛
+知道要用Biomial distribution, 可是好像算出來Expectation Value, Variance是一樣的. Waral 博客有更多文章,
+應該是算錯了
+有大神可以提點一下 n, k, p怎麼帶入跟怎麼判斷哪個好嗎？
+
+说说我的想法，不一定对哈~.本文原创自1point3acres论坛
+假设要算100条newsfeed里有多少条广告：
+两个Expectation应该都是4吧。但Variance应该不一样吧，第一种每次都是4，没有variation，而第二种就像你说的那样，
+是Binomial，那么variance就是np(1-p) = 100*0.04*0.96吧？
+至于哪种更好应该要设计test去比较吧。
+
+我没有看过题目 但感觉比较 display ad 的两种方式很像 grid search vs random search.  没有什么数据的情况下 
+我会觉得b更好 就像 random better than grid search
