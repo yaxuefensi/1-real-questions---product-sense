@@ -1,0 +1,7 @@
+怎么做news feed推荐。我回答可以从用户和news feed里面提feature。然后根据历史记录news的点击来建模。一旦
+有新的news来了可以直接提feature，加用户feature，用建好的model来算点击。根据高低排序。后面一直追问可以提
+哪些feature。然后一直追问这个model有哪些好的和不好的地方。怎么改进。我一提哪里不好，马上追问怎么改进，然后还有
+什么其他不足，怎么接着改。到后面有词穷的感觉。
+
+newsfeed：可以根据用户看到newsfeed的like数量进行推荐，根据用户share过的newsfeed进行推荐，还有用户订阅过
+的official counts的点击率进行推荐。每种推荐权重不一样，shared过权重比较高，其次是like，再其次是点击率。
