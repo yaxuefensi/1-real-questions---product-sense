@@ -13,3 +13,22 @@ Q1: what metrics to validate if the spam filter algorithm work or not?. 牛人�
 Q2: how you validate if the spam filter algorithm work or not?
 Q3: if the spam filter works but revenue drops, you know why?
 Q4: how you will design the spam filter algorithm?
+
+然后是产品题，有关 spam filter。
+Q: 假如 FB 要建一个ML-based spam filter，用什么 measure 判断有效性？
+A: Total number of spams reported by the user after the spams have been filtered.
+
+Q: 从 user experience 的角度， 什么 measure 说明有效？
+A: User engagement.
+
+Q: 如何设计实验来说明？
+A: User engagement change before & after launching the filter, t-test
+
+Q: 如果还没有 launch，如何看效果？
+A: Choose two groups of users: (1) Do not report spams ofter (2) Report spam often. 
+Do t-test on user engagement measures difference.
+
+Q: 如果发现使用ML-based spam filter 之后，广告点击率也下降了，是为什么？
+A: Maybe ad click-through rate per user changes, because of the change in user distribution. Users 
+who used to engage less due to spams tend to engage more after the spam filtered by ML-model, 
+but these users are less likely to click on ads.
