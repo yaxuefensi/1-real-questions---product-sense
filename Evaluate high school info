@@ -1,1 +1,8 @@
 求看用户注册高中的信息是否真实
+
+求看用户注册高中的信息是否真实
+
+可以考虑的metric：看这个用户的互相关注的朋友里有多少是这所高中的。还有看这个高中的名字在这个用户post里出现的频率和其他也填了这个高中的用户的比较。另外看这个用户的primary school和初中的location跟high school的距离。
+具体怎么建模做classification我想不太好，decision tree？. 1point3acres
+
+我觉得第二个可以看这个用户和别的用户的interaction 和用户在fb的行为 比如是不是都是有一些同样高中的
