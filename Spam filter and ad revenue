@@ -32,3 +32,6 @@ Q: 如果发现使用ML-based spam filter 之后，广告点击率也下降了�
 A: Maybe ad click-through rate per user changes, because of the change in user distribution. Users 
 who used to engage less due to spams tend to engage more after the spam filtered by ML-model, 
 but these users are less likely to click on ads.
+
+产品题我不明白2和3的点。如果横竖都是做实验，你这俩有啥区别，第三问感觉更像是需要考虑的confounding因素，或者是你想做个pre post？
+我的理解是你第二问只是general的横梁下这些feature有没有变化考虑一下network effect，第三问更像是内部小范围做个测试看看的意思。
