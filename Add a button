@@ -1,0 +1,12 @@
+如果要在某页面上加一个新的按钮，怎么说服其他同事这可能是一个有效的改进，有哪些pros和cons（这个问题不是很确定怎么分析），
+如何评测其有效性，如何定义metrics，如何divert，如果选择test/control group, 如何做测试。
+网页的每人浏览时长服从什么分布，why？（同样求指点...)
+
+
+
+关于新添一个按钮，感觉更多的是FE的变化。在美观醒目的前提下，我觉得Pros有诸如：引导user go deeper on the website，increase overall user UI exeperience, etc. Cons包括：如果太多按钮会misleading and confusing user，可能过于突出会导致overshadow其他的功能按钮。
+Metrics的话我会由于主要是FE变化，选择click through rate，而不是click through prob. 再加上一些比如说avg time spent on website的high level metric，同时monitor其他的按钮click through rate有没有大变化
+unit of diversion我会选择user_id而非cookie，因为在不同客户端用户体验最好一致
+population的话5% user进control，5% user进experiment。
+. 一亩-三分-地，独家发布
+大致目前想到那么多，希望大家一起讨论指点
