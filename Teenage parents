@@ -25,25 +25,103 @@ If cannot debias, then what to do?
  
  1) 
  类似的：如何判断两个用户之间是否为父母/子女关系？ 
+ age difference,if father last name, holiday photo, 
+ common friends(hard), 
  
  
  你如何将昵称（Pete、Andy、Nick、Rob等）映射到真名？
+ What's the use case of finding the real name? why you want to yingshe to real name? Must be some real questions. 
+ 
+ hyphothesis:  convient for friend searching.  Ask: if this is the real reason?
+ 
+ no need to find the only .  see the comment,  tag. 
+ 
+ 
  让人们简历上写上他们的高中，有多少是真实的？我们如何利用现有的数据库，找出一种方法找出冒牌的学校？
 一点tips：
-data scientist的面试会设计有很多细节部分，他们想看你是否会错过一些细节，来考察你是否足够细致以胜任这个职位。所以要注意每一点细枝末节的问题，你也可以写在白板上解释你的想法。
+data scientist的面试会设计有很多细节部分，他们想看你是否会错过一些细节，来考察你是否足够细致以胜任这个职位。
+所以要注意每一点细枝末节的问题，你也可以写在白板上解释你的想法。
+see the high school of the friends with most intereactions. edge case. 
+the friends with most interactions:  cluster - high school;  clusther - colleauge ;  cluster - colleage; cluster - relative
+
+company
+
+
+
+
 
 
 
 2）分析案例题，问青少年父母加入后会不会造成青少年流量下降。
  
+a. if A/B, selection bias
+
+b. casual inference?
+
+c. if cuase the negative, how should we do?
  
  
+A/B test,  hard to control.  treatment: adding parents.
+
+Cohort Analysis: 
+
+
+FB: Parent first in, teenage later. 
+
+Social medium:
+
+compare.   Generation gap.
+
+
+only analysis.  choose tennages,  before and after.  variables. engagement.  control. other. even only choose teenage.
+
+Area; location, 
+
+group; parents joined later
+another group: parents joined earilier
+
+if no A/B, then no casual.
+
+New app, new feather
+
+
+
+A/B:  change the code, change one parameter, others the same
+
+privacy, notification, 
+
+user research:  
  
  
- 
- 
- 
- 
+
+A/B: treatment wufa jia, 
+
+
+most uses,  test group email. 
+
+one case: FB online payment,  online payment to revenue.   
+
+
+agreement, randamization first,  control,  10% 
+
+
+test:  10000,  10% .  open to 1 wan,  use 
+
+control: 
+
+randimzation. 
+
+
+every team ,  1 metric,  5%, power analysis,  based on the experience.  
+
+DS told 5% users. 
+
+A/B, run time, case by case,  two weeks, novelty week. 
+
+
+stable, 
+
+
  
  
  
