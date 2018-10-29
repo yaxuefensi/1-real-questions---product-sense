@@ -11,7 +11,8 @@
 【hide=110] 
 我提到了要判断父母子女关系，如何判断 =》 last name, log in IP address, post tagging, conversation....
 
-如何设计实验 =》 what kind of selection bais might exsit? what kind of bias that can not be de-biased? If cannot debias, then what to do?
+如何设计实验 =》 what kind of selection bais might exsit? what kind of bias that can not be de-biased? 
+If cannot debias, then what to do?
 
 实验为前后对比，发现反映是negative的，那可以说两者有causal effect么？ 我觉得不能，那不能之后，就追问我既然不能，实验岂不是没有达到目的？
 
@@ -22,6 +23,18 @@
 面试官全程铁面，感觉是挂了，祝大家好运。
  
  
+ 1) 
+ 类似的：如何判断两个用户之间是否为父母/子女关系？ 
+ 
+ 
+ 你如何将昵称（Pete、Andy、Nick、Rob等）映射到真名？
+ 让人们简历上写上他们的高中，有多少是真实的？我们如何利用现有的数据库，找出一种方法找出冒牌的学校？
+一点tips：
+data scientist的面试会设计有很多细节部分，他们想看你是否会错过一些细节，来考察你是否足够细致以胜任这个职位。所以要注意每一点细枝末节的问题，你也可以写在白板上解释你的想法。
+
+
+
+2）分析案例题，问青少年父母加入后会不会造成青少年流量下降。
  
  
  
