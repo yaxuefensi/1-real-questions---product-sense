@@ -2,3 +2,11 @@
 现在FB上面的Group大致可以被区分为两种，一种主要由自己的家庭成员或者亲密朋友们组成，另一种是由一些兴趣相同但可能互相不认识的人组成。问如何
 区分这两种Group
 现在有一种假说是由家庭成员或者认识的人组成的Group要比另外一种的performence更好，如何prove或者disapprove这种假说.
+
+
+getdreamoffer 发表于 2018-6-13 04:54. 围观我们@1point 3 acres
+非常感谢LZ的分享！"问如何估计用户在Group上面花的时间" 这道题LZ能不能给点思路啊？谢谢啊！
+
+这道题目主要是三部分. 留学申请论坛-一亩三分地
+在Group页面上的时间可以直接被track
+notification和newsfeed我当时提供的方法是算Group message占总体的percentage 然后把用户的整体时间乘以percentage 三部分相加
