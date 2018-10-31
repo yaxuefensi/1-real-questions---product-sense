@@ -5,12 +5,17 @@
 对于大型商户和小型local的商户，你的metric会有什么不同
 
 对于大型商户和小型local的商户，你的metric会有什么不同
-For large size business, like automobile sometime cares more about brand awareness, therefore, total_reached users should be a more meaningful metrics for this kind of merchant.
-For small business, they cares more about ROI because the limited scope. Therefore, ROI or avg_user_per_ad should be more userful for them. 一亩-三分-地，独家发布
+For large size business, like automobile sometime cares more about brand awareness, therefore, total_reached users 
+should be a more meaningful metrics for this kind of merchant.
+For small business, they cares more about ROI because the limited scope. Therefore, ROI or avg_user_per_ad should 
+be more userful for them. 
 
-Additional suggestion, we can purge ads that had low ROI and low user spending and start help user do A/B test on factors that driver high ROI.
+
+Additional suggestion, we can purge ads that had low ROI and low user spending and start help user do A/B test
+on factors that driver high ROI.
 
 xya232 发表于 2018-6-22 09:08
 请问，大的business和小的business会有哪些metrics不一样啊？
 
-分享下思路，可能要从投放group和投放frequency考虑：big name会通过其他方式投放，而fb能投放到平常不看电视的那群人；投放频率的话，big name会少于local，因为会在别的平台也投放
+分享下思路，可能要从投放group和投放frequency考虑：big name会通过其他方式投放，而fb能投放到平常不看电视的那群人；投放频率的
+话，big name会少于local，因为会在别的平台也投放
