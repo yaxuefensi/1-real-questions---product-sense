@@ -1,0 +1,38 @@
+和地里的面经大同小异，一上来先相互介绍一下自己，然后说一下为什么想来FB
+介绍完就开始介绍今天的大致背景，SQL和product题目都是围绕ad4ad这个平台。简单来说ad4ad就是FB会找到在FB post里面卖东西的一些人，然后联系这些人
+给他们创造一个广告空间，在给这些user创造广告
+空间的同时FB会有potential loss或者cost because FB could spent money on other advertisers, instead of targeting potential 
+advertisers
+介绍完背景就开始SQL了，两个table如下：. 牛人云集,一亩三分地
+table a: date|event('impression','click','create_ad')|user_id|item_id|cost|spend
+table b: user_id|country|date
+
+table a介绍：event有三个值，其中impression就是FB为user创造的广告space，click代表user点进去了，create_ad代表user点进去之后正式create
+了ad。然后cost就是FB为这个user的这个item创造广告space所花费的cost，spend就是在user create_ad之后pay给FB的，所以只有create_ad那一行的
+spend不是null
+第一题：number of users that FB has invited in the last 30 days for each country.留学论坛-一亩-三分地
+不难，只需要a left join b 然后group by country就可以
+第二题：avg number of impressions per user per item before user creates ad 来源一亩.三分地论坛. 
+这道题稍微有点绕，但是仔细想一下也就想出来。先写个subquery，需要将table a自己join一下，然后找同时是impression和create_ad的record，最
+后group by user，item；写完subquery再用一个AVG就可以了。做完之后有个follow up question，问avg 有什么不好的地方
+
+product：list few metrics related to ad4ad, why these metrics. If one metric goes down, what is the reason? 
+. 1point3acres
+能回忆起来的差不多就这些了，希望能对大家有帮助，也希望自己onsite能好好发挥
+
+
+
+补充内容 (2018-11-1 02:31):
+再说一下关于product的问题，如果一个metric go down了，大家不仅仅要break down the metric from user perspective(e.g. country, 
+device, etc), 同时要想到这个metric是怎么算的，denominator和numerator是什么. From 1point 3acres bbs
+
+补充内容 (2018-11-1 02:33):
+metric下降可能是numerator变小了，可能是什么原因导致；然后denominator增加有可能是什么原因导致。还有如果别的创造广告的途径的收入下降了，
+对ad4ad好不好呢，可能会有什么影响呢等等，总之问的很细
+
+nnnnnnnnnnx 发表于 2018-10-31 13:43.本文原创自1point3acres论坛
+第二题SQL我的写法是：
+
+select avg(num_impression) as avg_impression
+
+可以的，我列举了三个metric，这就是其中一个。但是面试官对revenue per targeted user更感兴趣，也都是围绕这个metric展开的讨论
